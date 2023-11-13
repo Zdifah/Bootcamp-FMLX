@@ -6,8 +6,10 @@ class Program
 {
 	static void Main()
 	{
-		Cat pocari = new Cat("Hitam");
+		Cat pocari = new Cat("Oren");
 		pocari.Eat();
+		Cat jiji = new Cat("Hitam");
+		
 	}	
 }
 
