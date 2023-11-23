@@ -1,0 +1,8 @@
+#mengabaikan folder bin
+bin
+
+#mengabaikan folder obj
+obj
+
+#mengabaikan semua format csproj
+*.csproj
