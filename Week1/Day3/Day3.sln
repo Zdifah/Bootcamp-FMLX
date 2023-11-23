@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{DE8FBE78-0C96-40AB-9C5E-E65187E0E6F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{B2E88025-A0E6-4211-9018-165F95E40AAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{47276015-974B-4825-8927-A1FFF94D16FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE8FBE78-0C96-40AB-9C5E-E65187E0E6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8FBE78-0C96-40AB-9C5E-E65187E0E6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8FBE78-0C96-40AB-9C5E-E65187E0E6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8FBE78-0C96-40AB-9C5E-E65187E0E6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E88025-A0E6-4211-9018-165F95E40AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E88025-A0E6-4211-9018-165F95E40AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E88025-A0E6-4211-9018-165F95E40AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E88025-A0E6-4211-9018-165F95E40AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47276015-974B-4825-8927-A1FFF94D16FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47276015-974B-4825-8927-A1FFF94D16FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47276015-974B-4825-8927-A1FFF94D16FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47276015-974B-4825-8927-A1FFF94D16FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
