@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstrack", "Abstrack\Abstrack.csproj", "{51495FD3-5D08-445E-8B49-AB67EB618794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrabValueFromParent", "GrabValueFromParent\GrabValueFromParent.csproj", "{23200495-2575-41A9-B007-7CD8EC8EA8E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{4C0DEA01-0DED-4814-AC40-F3C47E5EE918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51495FD3-5D08-445E-8B49-AB67EB618794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51495FD3-5D08-445E-8B49-AB67EB618794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51495FD3-5D08-445E-8B49-AB67EB618794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51495FD3-5D08-445E-8B49-AB67EB618794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23200495-2575-41A9-B007-7CD8EC8EA8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23200495-2575-41A9-B007-7CD8EC8EA8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23200495-2575-41A9-B007-7CD8EC8EA8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23200495-2575-41A9-B007-7CD8EC8EA8E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0DEA01-0DED-4814-AC40-F3C47E5EE918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0DEA01-0DED-4814-AC40-F3C47E5EE918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0DEA01-0DED-4814-AC40-F3C47E5EE918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0DEA01-0DED-4814-AC40-F3C47E5EE918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
