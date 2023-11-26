@@ -11,9 +11,9 @@ class Program
 	{
 		/*
 		teknis pengunaan delegate
-		1. buat method delegatenya.
-		2. subcriber yang mau join harus memiliki signature yang sama dengan publisher
-		3. kita harus membuat variabel dengan tipe dari method delegate
+		1. declare delegate
+		2. create variable based on delegate
+		3. create method that have same signature of delegate
 		misal
 		public delegate void Test(); --> method delegate
 		
