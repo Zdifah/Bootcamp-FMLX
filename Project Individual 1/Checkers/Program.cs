@@ -1,7 +1,8 @@
-﻿class Program
+﻿using Checkers;
+class Program
 {
 	static void Main()
-    {
-    	
-    }
+	{
+		
+	}
 }

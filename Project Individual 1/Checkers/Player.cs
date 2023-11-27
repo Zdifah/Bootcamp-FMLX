@@ -1,6 +1,6 @@
 namespace Checkers;
 
-public class Player: Iplayer
+public class Player: IPlayer
 {
 	bool isTurn;
 	public string Nickname {get; private set;}
