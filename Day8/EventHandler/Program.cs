@@ -19,7 +19,7 @@ class Program
 		dan class yang dijadikan tipe datanya diberika tanda " class A : EventArgs" 
 		untuk memudahkan develpor lain ketika membacanya
 		*/
-		Pengirim pengirim = new Pengirim("Ilham");
+		Pengirim pengirim = new Pengirim("Ilham", 21);
 		Penerima penerima = new Penerima();
 		
 		pengirim.subs += penerima.GetNotif;
@@ -31,15 +31,17 @@ class Program
 class Pengirim
 {
 	public readonly string name;
+	public readonly int age;
 	public event EventHandler subs;
-	public Pengirim(string name)
+	public Pengirim(string name, int age)
 	{
 		this.name = name;
+		this.age = age;
 	}
 	
 	public void SendNotif()
 	{
-		subs?.Invoke(name, EventArgs.Empty);
+		subs?.Invoke(this, EventArgs.Empty);
 	}
 }
 
@@ -47,6 +49,6 @@ class Penerima
 {
 	public void GetNotif(object sender, EventArgs e)
 	{
-		System.Console.WriteLine($"dapet dari {sender}");
+		System.Console.WriteLine($"dapet dari {((Pengirim) sender).age}");
 	}
 }
