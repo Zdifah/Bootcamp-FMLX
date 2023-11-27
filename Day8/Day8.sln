@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameController", "GameController\GameController.csproj", "{E7929DFE-77D5-4021-83EA-81ED31083021}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandler", "EventHandler\EventHandler.csproj", "{2A48D0D7-8A66-499E-A1AC-4A0C09A25D5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{E7929DFE-77D5-4021-83EA-81ED31083021}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7929DFE-77D5-4021-83EA-81ED31083021}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7929DFE-77D5-4021-83EA-81ED31083021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A48D0D7-8A66-499E-A1AC-4A0C09A25D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A48D0D7-8A66-499E-A1AC-4A0C09A25D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A48D0D7-8A66-499E-A1AC-4A0C09A25D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A48D0D7-8A66-499E-A1AC-4A0C09A25D5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
