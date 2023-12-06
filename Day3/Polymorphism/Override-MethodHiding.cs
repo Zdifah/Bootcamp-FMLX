@@ -4,7 +4,7 @@ namespace MethodHiding;
 
 public class Animal
 {
-	public void MakeSound()
+	public void MakeSound(string test)
 	{
 		Console.WriteLine("Make Sound");
 	}

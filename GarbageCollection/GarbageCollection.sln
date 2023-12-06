@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarbageCollection", "GarbageCollection\GarbageCollection.csproj", "{6CFE4114-3060-4148-914E-978EC1AF6E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarbageCollection2", "GarbageCollection2\GarbageCollection2.csproj", "{5889A293-E0F5-4C2C-B8DA-8640A966DC02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CFE4114-3060-4148-914E-978EC1AF6E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFE4114-3060-4148-914E-978EC1AF6E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFE4114-3060-4148-914E-978EC1AF6E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFE4114-3060-4148-914E-978EC1AF6E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5889A293-E0F5-4C2C-B8DA-8640A966DC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5889A293-E0F5-4C2C-B8DA-8640A966DC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5889A293-E0F5-4C2C-B8DA-8640A966DC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5889A293-E0F5-4C2C-B8DA-8640A966DC02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
