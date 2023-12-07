@@ -1,13 +1,13 @@
-﻿#define Testing
-class Program
+﻿class Program
 {
 	/*
 	kita ingin menjalankan conditional compilation dengan memberikan
-	target condition lewat csproj
+	target condition lewat csproj. dengan memberikan <DefineConstants>TARGETNAMA</DefineConstants>
 	*/
 	
 	static void Main()
 	{
+		
 		#region CobaAJA
 		#if Testing
 		System.Console.WriteLine("Testing yaa!!");

@@ -7,7 +7,7 @@
 	
 	seperti yang udah dijelasin di ConditionalCompilationviaDefine. ketika kita menjalankan
 	conditional compilation dengan memberika TARGETNAMA sebenarnya kita menjalankan 2 kondisi
-	yaitu TARGETNAMA dan DEBUG. 
+	yaitu TARGETNAMA dan DEBUG. lalu outputnya ada pada folder bin di project
 	*/
 	
 	static void Main()
