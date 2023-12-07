@@ -2,6 +2,7 @@
 
 class Program 
 {
+	
 	static void Main() {
 		List<int> myInt = new();
 		myInt.Add(3);
@@ -34,8 +35,8 @@ class Player
 		Id = id;
 		Name = name;	
 	}
-    public override string ToString()
-    {
+	public override string ToString()
+	{
 		return $"{Id}, {Name}";
-    }
+	}
 }
