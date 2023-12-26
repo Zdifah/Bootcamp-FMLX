@@ -19,6 +19,11 @@ childnya akan melengkapi kekurangan dari parentnya
 konsep abstract sangat berguna jika kita mempunyai sebuah konsep atau
 behaviournya terlalu umum dan akan menjadi spesifik jika
 kita ingin menggunakannya
+
+abstrack bisa memiliki field
+interface tidak bisa memiliki field namun bisa memiliki properti
+
+abstrack and interface have uncomplete method and must be completed by inheritance or get contract 
 */
 abstract class Hunian
 {

@@ -6,14 +6,16 @@ public class GameController
 	public object x;
 	private Dictionary<IPlayer, HashSet<ICard>> _players;
 	private IBoard _board;
+	private ICard _card;
 	public event Action<ICard>? OnCardUpdate;
-	public GameController(IPlayer player, IBoard board) 
+	public GameController(IPlayer player, IBoard board, ICard card) 
 	{
 		_players = new()
 		{
 			{ player, new HashSet<ICard>() }
 		};
 		_board = board;
+		_card = card;
 	}
 	public bool AddCards(IPlayer player, params ICard[] cards) 
 	{
