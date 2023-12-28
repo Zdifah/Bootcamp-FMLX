@@ -4,9 +4,10 @@ namespace E_LearnDependecnyInjection;
 public class GreetingApp
 {
 	private readonly IGreetingService _greetingService;
+	// private readonly GreetingService _greet
 
 	// Konstruktor dengan DI
-	public GreetingApp(IGreetingService greetingService)
+	public GreetingApp(IGreetingService greet)
 	{
 		_greetingService = greetingService;
 	}
