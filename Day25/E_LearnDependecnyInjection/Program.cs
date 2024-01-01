@@ -6,18 +6,18 @@ class Program
 {
 	static void Main()
 	{
-		// IServiceCollection service = new ServiceCollection();
-		// service.AddTransient<IGreetingService, FormalGreetingService>();
-		// service.AddTransient<IGreetingService, CasualGreetingService>();
-		// service.AddTransient<GreetingApp>();
+		IServiceCollection service = new ServiceCollection();
+		service.AddTransient<IGreetingService, FormalGreetingService>();
+		service.AddTransient<IGreetingService, CasualGreetingService>();
+		service.AddTransient<GreetingApp>();
 		
-		// IServiceProvider provider = service.BuildServiceProvider();
+		IServiceProvider provider = service.BuildServiceProvider();
 		
-		// GreetingApp greetingAppFormal = provider.GetRequiredService<GreetingApp>();
-		// GreetingApp greetingAppCasual = provider.GetRequiredService<GreetingApp>();
+		GreetingApp greetingAppFormal = provider.GetRequiredService<GreetingApp>();
+		GreetingApp greetingAppCasual = provider.GetRequiredService<GreetingApp>();
 		
-		// greetingAppCasual.Run("Ilham");
-		// greetingAppFormal.Run("Fahry");
+		greetingAppCasual.Run("Ilham");
+		greetingAppFormal.Run("Fahry");
 		FormalGreetingService formal = new();
 		CasualGreetingService casual = new();
 		
